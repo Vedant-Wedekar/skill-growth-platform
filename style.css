@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font and smooth scrolling */
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px;
+  }
+  
+/* main */
+  main{
+
+    width: 100%;
+    height: 1500px;
+    /* background-color: #007bff; */
+  }
+  
+
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #007bff;
+    transition: 0.3s;
+  }
+  
+
+  /* nav-content */
+
+  .nc{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:baseline;
+    /* background-color: #007bff; */
+  }
+
+  .nav-btn
+  {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:self-start;
+    width: 400px;
+    margin-right: -220px;
+    
+  }
+  
+
+   .btn-1 button
+   {
+    width: 70px;
+    height: 30px;
+    border:  solid rgb(217, 210, 210) ;
+    border-radius: 30px 30px 30px 30px ;
+    
+   }
+
+   .btn-2 button
+   {
+    width: 70px;
+    height: 30px;
+    border:  solid rgb(217, 210, 210) ;
+    border-radius: 30px 30px 30px 30px ;
+    
+   }
+
+   .btn-3 button
+   {
+    width: 90px;
+    height: 30px;
+    border:  solid rgb(217, 210, 210) ;
+    border-radius: 30px 30px 30px 30px ;
+    
+   }
+
+   .btn-4 button
+   {
+    width: 70px;
+    height: 30px;
+    border:  solid rgb(217, 210, 210) ;
+    border-radius: 30px 30px 30px 30px ;
+    
+   }
+
+  .nav-home button{
+     
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    margin-left: 160px;
+    border:  solid rgb(217, 210, 210) ;
+    border-radius: 30px 30px 30px 30px ;
+    
+    
+  }
+  .nav-logo{
+
+    margin-left: -250px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    
+
+  }
+
+  .block-1{
+
+    width: 100%;
+    height: 500px;
+    /* background-color: #007bff; */
+    display: flex;
+  }
+
+
+  .ib{
+
+    background-image: url("assets/Mastering.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px 40px 40px 40px ;
+    margin-left: 80px;
+    margin-top: 60px;
+
+  }
+
+  /************************ main ******************************/
+
+
+  .con-b{
+    margin-top: 80px;
+    margin-right: 300px;
+    
+  }
+  .block-1{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    height: 300px;
+
+  }
+  .cb1{
+
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+  }
+
+  .cb1 h3{
+    
+    margin-left: -30px;
+  }
+
+  .sub-cb4{
+
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5px;
+  }
+
+  .main-btn
+  {
+    display: flex;
+    gap: 30px;
+  }
+
+  
+  .btn-14 , .btn-11 ,  .btn-13  , button
+  {
+
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   
+  }
+
+  .btn-12 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   background-color: rgb(235, 235, 206);
+   
+  }
+
+  
+  .btn-24 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   background-color: rgb(235, 235, 206);
+   
+  }
+
+  
+  
+  .btn-31 button
+  {
+     
+   width: 120px;
+   height: 40px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   background-color: rgb(25, 212, 25);
+   
+  }
+
+  
+  
+  .btn-32 button
+  {
+     
+   width: 120px;
+   height: 40px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   background-color: rgb(235, 235, 206);
+   
+  }
+
+  .block-2{
+
+     margin-top: 300px;
+     width: 100%;
+     height: 800px;
+     /* background-color: #007bff; */
+    /* display: flex;
+    justify-content: center; */
+  }
+  
+  .block-2 h1
+  {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+  }
+
+  .ib2
+  {
+    background-image: url(assets/specifications.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px 40px 40px 40px ;
+    margin-left: 840px;
+    margin-top: -320px;
+    
+
+  }
+
+  .con-2
+  {
+
+    display: grid;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .sb1{
+
+    width: 800px;
+    height: 90px;
+    gap: 30px;
+    /* margin-top: -20px; */
+  }
+
+  .sb1 h1{
+
+    margin-left: -410px;
+    height: 90px;
+  }
+  .sb2
+  {
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #007bff; */
+    padding: 50px;
+    margin-top: 80px;
+  }
+
+  .sb21
+  {
+    display: grid;
+    width: 550px;
+    margin-left: -50px;
+  }
+
+  
+  .sb22
+  {
+    display: grid;
+    width: 550px;
+  }
